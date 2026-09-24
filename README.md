@@ -10,7 +10,7 @@ Python Assignment(Delivery.../
 ├── run_tests.py        # Batch test runner (all test cases at once)
 ├── README.md           # This file
 ├── base_case.json      # Base test case from the assignment PDF
-└── Pypy/
+└── Test_Cases/
     ├── test_case_1.json
     ├── test_case_2.json
     └── ... (up to test_case_10.json)
@@ -20,9 +20,9 @@ Python Assignment(Delivery.../
 
 **Single file:**
 ```bash
-python fastbox.py Pypy/test_case_1.json
-python fastbox.py Pypy/test_case_1.json -o my_report.json
-python fastbox.py Pypy/test_case_1.json -o my_report.json --csv
+python fastbox.py Test_Cases/test_case_1.json
+python fastbox.py Test_Cases/test_case_1.json -o my_report.json
+python fastbox.py Test_Cases/test_case_1.json -o my_report.json --csv
 ```
 
 **All test cases at once:**
